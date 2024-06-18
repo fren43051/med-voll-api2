@@ -1,4 +1,4 @@
-package clinic.voll.api.medico;
+package clinic.voll.api.domain.medico;
 
 public record DatosListadoMedico(
         Long id,

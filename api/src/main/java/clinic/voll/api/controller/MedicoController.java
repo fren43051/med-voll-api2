@@ -1,7 +1,7 @@
 package clinic.voll.api.controller;
 
-import clinic.voll.api.direccion.DatosDireccion;
-import clinic.voll.api.medico.*;
+import clinic.voll.api.domain.direccion.DatosDireccion;
+import clinic.voll.api.domain.medico.*;
 
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import java.net.URI;
-import java.util.List;
 
 @RestController
 @RequestMapping("/medicos")

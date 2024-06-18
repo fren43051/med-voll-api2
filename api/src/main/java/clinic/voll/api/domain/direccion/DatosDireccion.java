@@ -1,4 +1,4 @@
-package clinic.voll.api.direccion;
+package clinic.voll.api.domain.direccion;
 
 import jakarta.validation.constraints.NotBlank;
 

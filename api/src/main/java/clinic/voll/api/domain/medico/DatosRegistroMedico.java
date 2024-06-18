@@ -1,7 +1,7 @@
-package clinic.voll.api.medico;
+package clinic.voll.api.domain.medico;
 
 
-import clinic.voll.api.direccion.DatosDireccion;
+import clinic.voll.api.domain.direccion.DatosDireccion;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
